@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PhishAware | Cyber Intelligence</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">P</span>
+            <span>Phish<span class="highlight">Aware</span></span>
+        </div>
+
+        <nav>
+            <a href="#report">Report</a>
+            <a href="#learn">Learn</a>
+<a href="#analyzer">Email Analyzer</a>
+<a href="#case-studies">Case Studies</a>
+<a href="#detective">Phishing Detective</a>
+<a href="#spotter">Website Spotter</a>
+<a href="#quiz">Quiz</a>
+            <a href="#home">Home</a>
+            <a href="#detective">Detective</a>
+            <a href="#spotter">Website Spotter</a>
+            <a href="#challenge">Challenge</a>
+        </nav>
+
+        <div class="status">
+            <span class="status-dot"></span>
+            CYBER AWARENESS
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <main>
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <span class="tag">CYBERSECURITY LEARNING PLATFORM</span>
+
+            <h1>
+                Think Before You
+                <span class="highlight">Trust.</span>
+            </h1>
+
+            <p>
+                Not every message is genuine.
+                Not every website is safe.
+                Develop the skills to identify digital deception
+                and protect your online identity.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#detective" class="primary-btn">
+                    Start Investigation →
+                </a>
+
+                <a href="#challenge" class="secondary-btn">
+                    Test Your Skills
+                </a>
+            </div>
+
+        </div>
+
+        <div class="hero-visual">
+            <div class="shield">
+                <span>⌑</span>
+            </div>
+
+            <div class="floating-card">
+                <span class="status-dot"></span>
+                Your awareness matters
+            </div>
+        </div>
+<div class="progress-dashboard">
+    <h2>📊 My Learning Progress</h2>
+    <p>Track your cybersecurity learning journey.</p>
+
+    <div class="progress-stats">
+        <div class="progress-card">
+            <h3 id="activitiesDone">0/3</h3>
+            <p>Activities Completed</p>
+        </div>
+
+        <div class="progress-card">
+            <h3 id="learningScore">0%</h3>
+            <p>Learning Progress</p>
+        </div>
+    </div>
+
+    <div class="progress-track">
+        <div id="learningBar"></div>
+    </div>
+</div>
+    </section>
+
+
+    <!-- Statistics -->
+    <section class="stats">
+
+        <div class="stat-card">
+            <h2>01</h2>
+            <p>Understand phishing</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>02</h2>
+            <p>Detect suspicious clues</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>03</h2>
+            <p>Build safer habits</p>
+        </div>
+
+    </section>
+
+
+    <!-- Learning Section -->
+     <section class="email-analyzer" id="analyzer">
+    <div class="section-heading">
+        <p class="section-tag">INTERACTIVE SECURITY TOOL</p>
+        <h2>Email Risk Analyzer</h2>
+        <p>
+            Examine a sample message and learn to recognise
+            common phishing warning signs.
+        </p>
+    </div>
+
+    <div class="analyzer-box">
+        <label for="emailInput">Paste a sample message</label>
+
+        <textarea
+            id="emailInput"
+            placeholder="Example: Your account will be blocked today! Verify your details immediately..."
+            rows="6"
+        ></textarea>
+
+        <button id="analyzeEmail" type="button">
+            Analyze Message
+        </button>
+
+        <div id="analysisResult" aria-live="polite"></div>
+    </div>
+</section>
+    <section class="content-section" id="learn">
+
+        <div class="section-heading">
+            <span class="tag">01 / KNOW THE THREAT</span>
+            <h2>Understand the <span class="highlight">Threat.</span></h2>
+
+            <p>
+                Phishing is a social engineering attack in which
+                criminals impersonate trusted sources to trick
+                people into revealing information or taking unsafe actions.
+            </p>
+        </div>
+
+        <div class="learning-grid">
+
+            <article class="learning-card">
+                <span class="card-icon">✉</span>
+                <h3>Email Phishing</h3>
+                <p>Fake emails pretending to come from trusted organizations.</p>
+            </article>
+
+            <article class="learning-card">
+                <span class="card-icon">▣</span>
+                <h3>Smishing</h3>
+                <p>Fraudulent messages delivered through SMS or messaging apps.</p>
+            </article>
+
+            <article class="learning-card">
+                <span class="card-icon">☎</span>
+                <h3>Vishing</h3>
+                <p>Fraudulent phone calls designed to obtain private information.</p>
+            </article>
+
+            <article class="learning-card">
+                <span class="card-icon">◎</span>
+                <h3>Spear Phishing</h3>
+                <p>Targeted phishing messages designed for specific individuals.</p>
+            </article>
+
+        </div>
+
+    </section>
+    <section class="case-studies" id="case-studies">
+    <div class="section-heading">
+        <p class="section-tag">LEARN FROM SCENARIOS</p>
+        <h2>Phishing Case Studies</h2>
+        <p>
+            Explore common online scam scenarios and
+            understand how to respond safely.
+        </p>
+    </div>
+
+    <div class="case-grid">
+
+        <article class="case-card">
+            <span class="case-number">CASE 01</span>
+            <h3>Fake Bank Alert</h3>
+            <p class="case-message">
+                "Your bank account will be suspended today.
+                Verify your details immediately."
+            </p>
+            <h4>Warning Signs</h4>
+            <ul>
+                <li>Creates fear and urgency.</li>
+                <li>Requests account verification.</li>
+                <li>Unexpected message.</li>
+            </ul>
+            <h4>Safe Response</h4>
+            <p>
+                Contact your bank using its official
+                app or verified phone number.
+            </p>
+        </article>
+
+        <article class="case-card">
+            <span class="case-number">CASE 02</span>
+            <h3>Fake Delivery Message</h3>
+            <p class="case-message">
+                "Your parcel is delayed. Pay a small
+                fee to receive your delivery."
+            </p>
+            <h4>Warning Signs</h4>
+            <ul>
+                <li>Unexpected payment request.</li>
+                <li>Unknown delivery message.</li>
+                <li>Pressure to act quickly.</li>
+            </ul>
+            <h4>Safe Response</h4>
+            <p>
+                Check the delivery status through
+                the official courier website.
+            </p>
+        </article>
+
+        <article class="case-card">
+            <span class="case-number">CASE 03</span>
+            <h3>Fake Internship Offer</h3>
+            <p class="case-message">
+                "Congratulations! You are selected.
+                Pay a registration fee to confirm."
+            </p>
+            <h4>Warning Signs</h4>
+            <ul>
+                <li>Unexpected selection message.</li>
+                <li>Payment demanded to secure a role.</li>
+                <li>No verified company details.</li>
+            </ul>
+            <h4>Safe Response</h4>
+            <p>
+                Verify the company and opportunity
+                through its official channels.
+            </p>
+        </article>
+
+        <article class="case-card">
+            <span class="case-number">CASE 04</span>
+            <h3>Social Media Warning</h3>
+            <p class="case-message">
+                "Your account violates our rules.
+                Confirm your password to avoid suspension."
+            </p>
+            <h4>Warning Signs</h4>
+            <ul>
+                <li>Threat of account suspension.</li>
+                <li>Request for a password.</li>
+                <li>Unverified sender.</li>
+            </ul>
+            <h4>Safe Response</h4>
+            <p>
+                Open the social media app directly
+                and check its official notifications.
+            </p>
+        </article>
+
+    </div>
+</section>
+<section class="report-section" id="report">
+    <div class="section-heading">
+        <p class="section-tag">TAKE ACTION</p>
+        <h2>How to Report Phishing</h2>
+        <p>
+            Recognising a phishing attempt is important.
+            Reporting it can help protect others too.
+        </p>
+    </div>
+
+    <div class="report-grid">
+
+        <div class="report-card">
+            <h3>01. Do Not Interact</h3>
+            <p>
+                Avoid clicking suspicious links,
+                downloading attachments or replying
+                to unexpected messages.
+            </p>
+        </div>
+
+        <div class="report-card">
+            <h3>02. Preserve Evidence</h3>
+            <p>
+                Keep relevant screenshots, messages,
+                sender details and suspicious URLs.
+                Do not share private information publicly.
+            </p>
+        </div>
+
+        <div class="report-card">
+            <h3>03. Report the Incident</h3>
+            <p>
+                Use India's official cybercrime
+                reporting portal to report cybercrime.
+            </p>
+            <a href="https://cybercrime.gov.in/"
+               target="_blank"
+               rel="noopener noreferrer">
+                National Cyber Crime Portal ↗
+            </a>
+        </div>
+
+        <div class="report-card">
+            <h3>04. Financial Cyber Fraud</h3>
+            <p>
+                If money has been lost through cyber
+                fraud, contact your bank immediately
+                and call the national helpline.
+            </p>
+            <strong>Helpline: 1930</strong>
+        </div>
+
+    </div>
+    <p class="report-note">
+        Always use official government websites
+        and verified contact details.
+    </p>
+</section>
+
+
+    <!-- Phishing Detective -->
+     <section class="knowledge-hub" id="learn">
+    <div class="section-heading">
+        <p class="section-tag">LEARN BEFORE YOU CLICK</p>
+        <h2>Phishing Knowledge Hub</h2>
+        <p>
+            Understand how online scams work and learn
+            how to protect yourself in the digital world.
+        </p>
+    </div>
+
+    <div class="knowledge-grid">
+
+        <div class="knowledge-card">
+            <h3>What is Phishing?</h3>
+            <p>
+                Phishing is a type of online scam where
+                attackers pretend to be trusted people
+                or organisations to trick users into
+                sharing private information.
+            </p>
+        </div>
+
+        <div class="knowledge-card">
+            <h3>Common Types</h3>
+            <ul>
+                <li>Email phishing</li>
+                <li>SMS phishing (Smishing)</li>
+                <li>Voice phishing (Vishing)</li>
+                <li>Fake website phishing</li>
+                <li>Social media phishing</li>
+            </ul>
+        </div>
+
+        <div class="knowledge-card">
+            <h3>Social Engineering</h3>
+            <p>
+                Scammers use trust, fear, curiosity
+                or urgency to influence people into
+                making unsafe decisions.
+            </p>
+        </div>
+
+        <div class="knowledge-card">
+            <h3>Warning Signs</h3>
+            <ul>
+                <li>Unexpected messages</li>
+                <li>Urgent requests</li>
+                <li>Unknown senders</li>
+                <li>Suspicious links</li>
+                <li>Requests for passwords or OTPs</li>
+            </ul>
+        </div>
+
+        <div class="knowledge-card">
+            <h3>Real-World Examples</h3>
+            <p>
+                Fake delivery notifications, bank
+                account warnings and fraudulent
+                prize messages are common phishing
+                scenarios.
+            </p>
+        </div>
+
+        <div class="knowledge-card">
+            <h3>Stay Protected</h3>
+            <ul>
+                <li>Verify the sender independently.</li>
+                <li>Check website addresses carefully.</li>
+                <li>Never share passwords or OTPs.</li>
+                <li>Enable multi-factor authentication.</li>
+                <li>Report suspicious messages.</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+    <section class="content-section investigation" id="detective">
+
+        <div class="section-heading">
+            <span class="tag">02 / INTERACTIVE INVESTIGATION</span>
+            <h2>Phishing <span class="highlight">Detective.</span></h2>
+
+            <p>
+                Examine the fictional message below.
+                Identify the suspicious clues and test your observation skills.
+            </p>
+        </div>
+
+        <div class="investigation-box">
+
+            <div class="email-header">
+                <span>FICTIONAL EMAIL / TRAINING EXERCISE</span>
+                <span class="warning-label">SUSPICIOUS EXAMPLE</span>
+            </div>
+
+            <div class="email-content">
+
+                <p><strong>From:</strong> Account Support</p>
+
+                <p><strong>Subject:</strong> Urgent account verification required</p>
+
+                <hr>
+
+                <p>Hello User,</p>
+
+                <p>
+                    We noticed an unusual activity on your account.
+                    Please verify your account immediately to avoid
+                    temporary suspension.
+                </p>
+
+                <div class="fake-link">
+                    [Training link disabled]
+                </div>
+
+                <p>Thank you,<br>Account Support Team</p>
+
+            </div>
+
+            <div class="detective-question">
+
+                <h3>What makes this message suspicious?</h3>
+
+                <p>Select the clues you notice.</p>
+
+                <label class="clue-option">
+                    <input type="checkbox" value="urgency">
+                    Creates urgency and pressure
+                </label>
+
+                <label class="clue-option">
+                    <input type="checkbox" value="generic">
+                    Uses a generic greeting
+                </label>
+
+                <label class="clue-option">
+                    <input type="checkbox" value="link">
+                    Contains an unexpected link
+                </label>
+
+                <button class="primary-btn" id="checkDetective">
+                    Check My Investigation →
+                </button>
+
+                <p id="detectiveResult" aria-live="polite"></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Website Spotter -->
+    <section class="content-section" id="spotter">
+
+        <div class="section-heading">
+            <span class="tag">03 / DIGITAL IDENTITY CHECK</span>
+            <h2>Website <span class="highlight">Spotter.</span></h2>
+
+            <p>
+                Learn the warning signs of suspicious websites
+                before trusting them with your information.
+            </p>
+
+        </div>
+
+        <div class="spotter-grid">
+
+            <div class="spotter-card">
+                <span class="card-icon">⌕</span>
+                <h3>Check the Domain</h3>
+                <p>Look carefully for misspellings and unusual domain names.</p>
+            </div>
+
+            <div class="spotter-card">
+                <span class="card-icon">🔒</span>
+                <h3>Check the Connection</h3>
+                <p>HTTPS protects a connection but does not prove a website is genuine.</p>
+            </div>
+
+            <div class="spotter-card">
+                <span class="card-icon">⚠</span>
+                <h3>Watch for Impersonation</h3>
+                <p>A copied logo or familiar design does not establish trust.</p>
+            </div>
+
+        </div>
+
+        <div class="practice-box">
+
+            <h3>Quick Domain Awareness</h3>
+
+            <p>Which domain looks more trustworthy?</p>
+
+            <button class="domain-option" data-answer="wrong">
+                example-bank-security.invalid
+            </button>
+
+            <button class="domain-option" data-answer="correct">
+                bank.example
+            </button>
+
+            <p id="domainResult" aria-live="polite"></p>
+
+            <p class="small-note">
+                Fictional training domains only. In real situations,
+                independently verify the organization's official address.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Social Engineering -->
+    <section class="content-section" id="social">
+
+        <div class="section-heading">
+            <span class="tag">04 / HUMAN FACTOR</span>
+            <h2>How attackers manipulate <span class="highlight">Trust.</span></h2>
+        </div>
+
+        <div class="learning-grid">
+
+            <article class="learning-card">
+                <h3>Urgency</h3>
+                <p>Creating pressure so people act without checking.</p>
+            </article>
+
+            <article class="learning-card">
+                <h3>Authority</h3>
+                <p>Pretending to be a bank employee or an official.</p>
+            </article>
+
+            <article class="learning-card">
+                <h3>Fear</h3>
+                <p>Using threats or account warnings to influence decisions.</p>
+            </article>
+
+            <article class="learning-card">
+                <h3>Rewards</h3>
+                <p>Offering unexpected prizes or refunds to attract attention.</p>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Quiz -->
+    <section class="content-section challenge" id="challenge">
+
+        <div class="section-heading">
+            <span class="tag">05 / TEST YOUR KNOWLEDGE</span>
+            <h2>Cyber Safety <span class="highlight">Challenge.</span></h2>
+
+            <p>
+                Put your cybersecurity awareness to the test.
+                Choose the safest response to each situation.
+            </p>
+        </div>
+
+        <div class="quiz-box">
+
+            <div class="quiz-top">
+                <span id="questionNumber">QUESTION 01 / 05</span>
+                <span id="scoreDisplay">SCORE: 0</span>
+            </div>
+
+            <div class="progress-track">
+                <div id="progressBar"></div>
+            </div>
+
+            <h3 id="question">Loading question...</h3>
+
+            <div id="answers" class="answers"></div>
+
+            <p id="quizFeedback" aria-live="polite"></p>
+
+            <button id="nextQuestion" class="primary-btn" disabled>
+                Next Question →
+            </button>
+
+            <div id="finalResult" hidden></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Safety Guide -->
+    <section class="content-section" id="protect">
+
+        <div class="section-heading">
+            <span class="tag">06 / YOUR DEFENCE</span>
+            <h2>Pause. Verify. <span class="highlight">Protect.</span></h2>
+        </div>
+
+        <div class="learning-grid">
+
+            <article class="learning-card">
+                <h3>01. Pause</h3>
+                <p>Never rush into clicking unexpected links or opening attachments.</p>
+            </article>
+
+            <article class="learning-card">
+                <h3>02. Verify</h3>
+                <p>Use official apps, websites and trusted contact details.</p>
+            </article>
+
+            <article class="learning-card">
+                <h3>03. Protect</h3>
+                <p>Use strong unique passwords and multi-factor authentication.</p>
+            </article>
+
+            <article class="learning-card">
+                <h3>04. Report</h3>
+                <p>Report suspicious messages to the relevant platform or organization.</p>
+            </article>
+
+        </div>
+
+    </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="logo">
+            Phish<span class="highlight">Aware</span>
+        </div>
+
+        <p>Think Before You Trust.</p>
+
+        <p class="small-note">
+            Cybersecurity Awareness Project |
+            CodeAlpha Internship – Task 2
+        </p>
+
+        <p class="small-note">
+            Educational project. All training examples are fictional.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
